@@ -1,0 +1,1184 @@
+@import url(c:\Users\Rostislav\Desktop\1\Arctica Vue.js\arctica\src\style\swiper-bundle.min.css);
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "PT Sans";
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 95%;
+}
+
+.zone-title, .project-title, .northway-top__title, .news-top__title, .today-title, .region-title, .politic-title {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 127.8%;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+.project-link, .northway-top__link, .news-top__link {
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  text-align: center;
+  border: 1px solid #174479;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  color: #174479;
+  text-decoration: none;
+  -webkit-transition: color 0.7s ease, background 0.7s ease;
+  transition: color 0.7s ease, background 0.7s ease;
+}
+
+.header .navigation-button:hover, .northway-top__link:hover {
+  background: #FFFFFF;
+  color: #174479;
+}
+
+.project-content__link {
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #174479;
+  text-decoration: none;
+  -webkit-transition: opacity 0.7s ease;
+  transition: opacity 0.7s ease;
+}
+
+.fa-chevron-right {
+  margin: 0px 0px 0px 16px;
+}
+
+.button-next__project {
+  margin: 0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "PT Sans";
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 95%;
+}
+
+.header {
+  position: relative;
+  padding: 32px 0px 0px 0px;
+}
+
+.header .swiper-container {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.header .header-slider {
+  text-align: center;
+}
+
+.header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navigation-logo {
+  margin: 0px 48px 0px 0px;
+}
+
+.header .navigation-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navigation-link {
+  margin: 0px 32px 0px 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: opacity 0.7s ease;
+  transition: opacity 0.7s ease;
+}
+
+.header .navigation-link:last-child {
+  margin: 0px 0px 0px 0px;
+}
+
+.header .navigation-link:hover {
+  opacity: 0.6;
+}
+
+.header .navigation-button {
+  border: 1px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 8px 38px;
+  -webkit-transition: color 0.7s ease, background 0.7s ease;
+  transition: color 0.7s ease, background 0.7s ease;
+  cursor: pointer;
+}
+
+.header .header-content {
+  margin: 320px 0px 0px 0px;
+}
+
+.header .header-content__title {
+  display: inline-block;
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 110.2%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.header .header-content__subtitle {
+  margin: 44px 0px 0px 0px;
+  padding: 0px 0px 403px 0px;
+  width: 308px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 122.4%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.header .content-title__arctic::after {
+  margin: 0px 0px 0px 40px;
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  width: 140px;
+  height: 11px;
+  background-color: #fff;
+}
+
+.zone-title, .project-title, .northway-top__title, .news-top__title, .today-title, .region-title, .politic-title {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 127.8%;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+.project-link, .northway-top__link, .news-top__link {
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  text-align: center;
+  border: 1px solid #174479;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  color: #174479;
+  text-decoration: none;
+  -webkit-transition: color 0.7s ease, background 0.7s ease;
+  transition: color 0.7s ease, background 0.7s ease;
+}
+
+.header .navigation-button:hover, .northway-top__link:hover {
+  background: #FFFFFF;
+  color: #174479;
+}
+
+.project-content__link {
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #174479;
+  text-decoration: none;
+  -webkit-transition: opacity 0.7s ease;
+  transition: opacity 0.7s ease;
+}
+
+.fa-chevron-right {
+  margin: 0px 0px 0px 16px;
+}
+
+.button-next__project {
+  margin: 0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "PT Sans";
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 95%;
+}
+
+.zone {
+  background: url("../assets/main/map.png") no-repeat center;
+}
+
+.zone-container {
+  padding: 112px 0px 280px 0px;
+  max-height: 1080px;
+  height: 95%;
+}
+
+.zone-title {
+  margin: 0px 0px 74px 0px;
+}
+
+.zone-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.zone-what {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.zone-what__subtitle {
+  margin: 0px 0px 29px 0px;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 124.3%;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+
+.zone-what__description {
+  margin: 0px 0px 33px 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #555555;
+}
+
+.zone-what__link {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #174479;
+  text-decoration: none;
+  -webkit-transition: opacity 0.7s ease;
+  transition: opacity 0.7s ease;
+}
+
+.zone-what__link:hover {
+  opacity: 0.6;
+}
+
+.zone-statistic {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zone-statistic__block {
+  max-width: 316px;
+  margin: 0px 0px 45px 0px;
+}
+
+.zone-statistic__top {
+  margin: 0px 0px 11px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zone-statistic__subtitle {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 124.3%;
+  letter-spacing: 0.03em;
+  color: #174479;
+}
+
+.zone-statistic__first {
+  margin: 0px 16px 0px 0px;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 110.2%;
+  letter-spacing: 0.01em;
+  color: #174479;
+}
+
+.zone-statistic__description {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 122.4%;
+  letter-spacing: 0.04em;
+  color: #174479;
+}
+
+.video-block {
+  text-align: center;
+}
+
+.video-block__img {
+  max-width: 1920px;
+  max-height: 1080px;
+  width: 100%;
+}
+
+.project-container {
+  padding: 110px 0px 128px 0px;
+}
+
+.project-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 0px 50px 0px;
+}
+
+.project-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-content {
+  position: relative;
+  -ms-flex-preferred-size: 28%;
+      flex-basis: 28%;
+}
+
+.project-content__theme {
+  margin: 0px 0px 13px 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 122.4%;
+  letter-spacing: 0.04em;
+  color: #999999;
+}
+
+.project-content__title {
+  margin: 0px 0px 43px 0px;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 123.63%;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+.project-content__description {
+  margin: 0px 0px 38px 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #555555;
+}
+
+.project-content__link:hover {
+  opacity: 0.6;
+}
+
+.project-content__img {
+  max-width: 848px;
+  width: 95%;
+}
+
+.northway {
+  background: url("../assets/northWay/bg.png") no-repeat center;
+}
+
+.northway-container {
+  padding: 110px 0px 64px 0px;
+}
+
+.northway-top {
+  margin: 0px 0px 39px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.northway-news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.northway-news__block {
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+}
+
+.northway-news__theme {
+  max-width: 80%;
+  margin: 0px 0px 13px 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 122.4%;
+  letter-spacing: 0.04em;
+  color: #174479;
+}
+
+.northway-news__title {
+  margin: 0px 0px 78px 0px;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 123.63%;
+  letter-spacing: 0.02em;
+  color: #174479;
+}
+
+.northway-news__first {
+  margin: 0px 24px 0px 0px;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 110.2%;
+  letter-spacing: 0.01em;
+  color: #174479;
+}
+
+.northway-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.northway-content__block {
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+}
+
+.northway-content__img {
+  margin: 0px 0px 32px 0px;
+  z-index: 1;
+}
+
+.northway-content__img:hover {
+  z-index: 5;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 28, 67, 0.8)), to(rgba(0, 15, 35, 0))), url("../assets/northWay/play.png");
+  background: linear-gradient(180deg, rgba(0, 28, 67, 0.8) 0%, rgba(0, 15, 35, 0) 100%), url("../assets/northWay/play.png");
+}
+
+.northway-content__subtitle {
+  max-width: 85%;
+  margin: 0px 0px 13px 0px;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 124.3%;
+  letter-spacing: 0.03em;
+  color: #333333;
+}
+
+.northway-content__description {
+  max-width: 85%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #555555;
+}
+
+.news-container {
+  padding: 110px 0px 96px 0px;
+}
+
+.news-top {
+  margin: 0px 0px 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.news-content__item {
+  margin: 0px 0px 16px 0px;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  border: 1px solid #EBEBEB;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.news-content__img {
+  margin: 0px 0px 19px 0px;
+}
+
+.news-content__date {
+  margin: 0px 0px 10px 0px;
+  padding: 0px 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: #999999;
+}
+
+.news-content__subtitle {
+  margin: 0px 0px 16px 0px;
+  padding: 0px 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 122.4%;
+  /* or 24px */
+  letter-spacing: 0.04em;
+  color: #333333;
+}
+
+.news-content__desription {
+  margin-bottom: 7%;
+  padding: 0px 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  letter-spacing: 0.04em;
+  color: #555555;
+}
+
+.news-content__theme {
+  display: inline-block;
+  margin: 0px 0px 18px 0px;
+  padding: 0px 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  letter-spacing: 0.04em;
+  color: #174479;
+  opacity: 0.5;
+  text-decoration: none;
+  -webkit-transition: opacity 0.7s ease;
+  transition: opacity 0.7s ease;
+}
+
+.news-content__theme:hover {
+  opacity: 0.8;
+}
+
+.news .content-item__link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* slider */
+.footer {
+  background-color: #333333;
+}
+
+.footer-container {
+  padding: 88px 0px 0px 0px;
+}
+
+.footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+.footer-nav__item {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin: 0px 0px 16px 0px;
+}
+
+.footer-nav__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.footer-logo__container {
+  margin: 0px 124px 0px 0px;
+}
+
+.footer-subscription__title {
+  margin: 0px 0px 19px 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.footer-subscription__email {
+  padding: 0px 0px 0px 24px;
+  width: 524px;
+  height: 56px;
+  background: transparent;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.zone-title, .project-title, .northway-top__title, .news-top__title, .today-title, .region-title, .politic-title {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 127.8%;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+.project-link, .northway-top__link, .news-top__link {
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  text-align: center;
+  border: 1px solid #174479;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  color: #174479;
+  text-decoration: none;
+  -webkit-transition: color 0.7s ease, background 0.7s ease;
+  transition: color 0.7s ease, background 0.7s ease;
+}
+
+.header .navigation-button:hover, .northway-top__link:hover {
+  background: #FFFFFF;
+  color: #174479;
+}
+
+.project-content__link {
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #174479;
+  text-decoration: none;
+  -webkit-transition: opacity 0.7s ease;
+  transition: opacity 0.7s ease;
+}
+
+.fa-chevron-right {
+  margin: 0px 0px 0px 16px;
+}
+
+.button-next__project {
+  margin: 0;
+}
+
+.zone-title, .project-title, .northway-top__title, .news-top__title, .today-title, .region-title, .politic-title {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 127.8%;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+.project-link, .northway-top__link, .news-top__link {
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  text-align: center;
+  border: 1px solid #174479;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  color: #174479;
+  text-decoration: none;
+  -webkit-transition: color 0.7s ease, background 0.7s ease;
+  transition: color 0.7s ease, background 0.7s ease;
+}
+
+.header .navigation-button:hover, .northway-top__link:hover {
+  background: #FFFFFF;
+  color: #174479;
+}
+
+.project-content__link {
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #174479;
+  text-decoration: none;
+  -webkit-transition: opacity 0.7s ease;
+  transition: opacity 0.7s ease;
+}
+
+.fa-chevron-right {
+  margin: 0px 0px 0px 16px;
+}
+
+.button-next__project {
+  margin: 0;
+}
+
+.arctica-container {
+  padding: 80px 0px 0px 0px;
+}
+
+.arctica-nav {
+  margin: 0px 0px 110px 0px;
+  height: 144px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.arctica-nav__link {
+  margin: 0px 0px 0px 16px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  letter-spacing: 0.04em;
+  /* font_main */
+  color: #555555;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.arctica-nav__link:hover {
+  opacity: 0.5;
+}
+
+.today-title {
+  margin: 0px 0px 98px 0px;
+}
+
+.today-item {
+  margin: 0px 0px 112px 0px;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.today-item__description {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  padding: 0px 125px 0px 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 122.4%;
+  /* or 24px */
+  letter-spacing: 0.04em;
+  /* accent */
+  color: #174479;
+}
+
+.today-item__img {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  max-width: 740px;
+  width: 95%;
+}
+
+.today .today-item:nth-child(odd) .today-item__description {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin: 0px 0px 0px 124px;
+}
+
+.region {
+  background: url("../assets/arctic/region/bg.png") no-repeat center;
+}
+
+.region-container {
+  padding: 110px 0px 530px 0px;
+}
+
+.region-title {
+  margin: 0px 0px 71px 0px;
+}
+
+.region-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.region-content__description {
+  max-width: 50%;
+  width: 50%;
+}
+
+.region-content__statistic {
+  max-width: 50%;
+  width: 50%;
+  text-align: center;
+}
+
+.region .description-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  letter-spacing: 0.04em;
+  /* font_main */
+  color: #555555;
+}
+
+.region .statistic-item {
+  margin: 0px 0px 45px 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.region .statistic-item__subtitle {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 124.3%;
+  /* or 32px */
+  letter-spacing: 0.03em;
+  /* accent */
+  color: #174479;
+}
+
+.region .statistic-item__first {
+  margin: 0px 24px 11px 0px;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 110.2%;
+  /* or 88px */
+  letter-spacing: 0.01em;
+  /* accent */
+  color: #174479;
+}
+
+.region .statistic-item__description {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 122.4%;
+  /* or 24px */
+  letter-spacing: 0.04em;
+  /* accent */
+  color: #174479;
+}
+
+.region .statistic-item__img {
+  margin: 0px 24px 0px 0px;
+  width: 41px;
+  height: 56px;
+}
+
+.development {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.development .swiper-container {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+  height: 100%;
+  z-index: -1;
+}
+
+.development .swiper-wrapper {
+  margin: 0 auto;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.development .swiper-slide {
+  width: 100%;
+}
+
+.development .swiper-slide__one {
+  background: url("../assets/arctic/development/bg.png") no-repeat;
+  background-blend-mode: multiply, normal;
+}
+
+.development .swiper-slide__two {
+  background: url("../assets/arctic/development/bg2.png") no-repeat;
+  background-blend-mode: multiply, normal;
+}
+
+.development .swiper-slide__three {
+  background: url("../assets/arctic/development/bg3.png") no-repeat;
+  background-blend-mode: multiply, normal;
+}
+
+.development-container {
+  padding: 110px 0px 371px 0px;
+}
+
+.development-title {
+  margin: 0px 0px 177px 0px;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 110.2%;
+  /* or 88px */
+  letter-spacing: 0.01em;
+  /* white */
+  color: #FFFFFF;
+}
+
+.development-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.development .content-item__img {
+  margin: 0px 0px 93px 0px;
+}
+
+.development .content-item__description {
+  max-width: 522px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.politic-container {
+  padding: 110px 0px 0px 0px;
+}
+
+.politic-title {
+  margin: 0px 0px 71px 0px;
+}
+
+.politic-list {
+  margin: 0px 0px 48px 0px;
+}
+
+.politic-item {
+  width: 63%;
+  margin: 0px 0px 32px 0px;
+  color: #174479;
+}
+
+.politic-item__link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 122.4%;
+  /* or 24px */
+  letter-spacing: 0.04em;
+  /* accent */
+  color: #174479;
+  text-decoration: none;
+  -webkit-transition: opacity 0.3s ease, color 0.3s ease;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.politic-item__link:hover {
+  opacity: 0.8;
+  color: #333333;
+}
+
+body {
+  font-family: "PT Sans";
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 95%;
+}

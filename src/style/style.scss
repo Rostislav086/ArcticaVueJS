@@ -1,0 +1,16 @@
+@import "_normalize";
+@import "_header";
+@import "_main";
+@import "_footer";
+@import "_templates";
+@import "_arctica";
+
+body {
+    font-family: "PT Sans";
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}

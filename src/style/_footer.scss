@@ -1,0 +1,64 @@
+.footer {
+	background-color: #333333;
+
+	&-container {
+		padding: 88px 0px 0px 0px;
+	}
+
+	&-top {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&-nav {
+		// flex-basis: 60%;
+		display: flex;
+		justify-content: space-between;
+
+		&__list {
+			display: flex;
+			flex-wrap: wrap;
+			list-style: none;
+		}
+
+		&__item {
+			flex-basis: 50%;
+			margin: 0px 0px 16px 0px;
+		}
+
+		&__link {
+			text-decoration: none;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 24px;
+			letter-spacing: 0.04em;
+			color: #ffffff;
+		}
+	}
+
+	&-logo__container {
+		margin: 0px 124px 0px 0px;
+	}
+
+	&-subscription {
+		&__title {
+			margin: 0px 0px 19px 0px;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 24px;
+			letter-spacing: 0.04em;
+			color: #ffffff;
+		}
+
+		&__email {
+			padding: 0px 0px 0px 24px;
+			width: 524px;
+			height: 56px;
+			background: transparent;
+			color: #ffffff;
+			opacity: 0.6;
+		}
+	}
+}

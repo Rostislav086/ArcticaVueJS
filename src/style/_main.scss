@@ -1,0 +1,438 @@
+@import './_templates.scss';
+@import './_normalize.scss';
+
+.zone {
+    background: url("../assets/main/map.png") no-repeat center;
+
+    &-container {
+        padding: 112px 0px 280px 0px;
+        max-height: 1080px;
+        height: 95%;
+    }
+
+    &-title {
+        @extend %section-title;
+        margin: 0px 0px 74px 0px;
+    }
+
+    &-content {
+        display: flex;
+    }
+
+    &-what {
+        flex-basis: 40%;
+
+        &__subtitle {
+            margin: 0px 0px 29px 0px;
+            font-family: "Russo One";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 124.3%;
+            letter-spacing: 0.03em;
+            color: #333333;
+        }
+
+        &__description {
+            margin: 0px 0px 33px 0px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.04em;
+            color: #555555;
+        }
+
+        &__link {
+            // margin: 0px 0px 16px 0px;
+            display: block;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+            color: #174479;
+            text-decoration: none;
+            transition: opacity 0.7s ease;
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+
+    }
+
+    &-statistic {
+        flex-basis: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__block {
+            max-width: 316px;
+            margin: 0px 0px 45px 0px;
+        }
+
+        &__top {
+            margin: 0px 0px 11px 0px;
+            display: flex;
+            align-items: center;
+        }
+
+        &__subtitle {
+            font-family: "Russo One";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 124.3%;
+            letter-spacing: 0.03em;
+            color: #174479;
+        }
+
+        &__first {
+            margin: 0px 16px 0px 0px;
+            font-family: "Russo One";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 80px;
+            line-height: 110.2%;
+            letter-spacing: 0.01em;
+            color: #174479;
+        }
+
+        &__description {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 122.4%;
+            letter-spacing: 0.04em;
+            color: #174479;
+        }
+    }
+}
+
+
+.video-block {
+    text-align: center;
+
+    &__img {
+        max-width: 1920px;
+        max-height: 1080px;
+        width: 100%;
+    }
+}
+
+.project {
+
+    &-container {
+        padding: 110px 0px 128px 0px;
+    }
+
+    &-top {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 0px 50px 0px;
+    }
+
+    &-title {
+        @extend %section-title;
+    }
+
+    &-link {
+        @extend %section-button;
+
+    }
+
+    &-block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-content {
+        position: relative;
+        flex-basis: 28%;
+
+        &__theme {
+            margin: 0px 0px 13px 0px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 122.4%;
+            letter-spacing: 0.04em;
+            color: #999999;
+        }
+
+        &__title {
+            margin: 0px 0px 43px 0px;
+            font-family: "Russo One";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 123.63%;
+            letter-spacing: 0.02em;
+            color: #333333;
+        }
+
+        &__description {
+            margin: 0px 0px 38px 0px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.04em;
+            color: #555555;
+        }
+
+        &__link {
+            @extend %section-link;
+
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+
+        &__img {
+            max-width: 848px;
+            width: 95%;
+        }
+    }
+}
+
+.northway {
+    background: url("../assets/northWay/bg.png") no-repeat center;
+
+    &-container {
+        padding: 110px 0px 64px 0px;
+    }
+
+    &-top {
+        margin: 0px 0px 39px 0px;
+        display: flex;
+        justify-content: space-between;
+
+        &__title {
+            @extend %section-title;
+        }
+
+        &__link {
+            @extend %section-button;
+
+            &:hover {
+                @extend %section-button__hover;
+            }
+        }
+    }
+
+    &-news {
+        display: flex;
+        justify-content: space-between;
+
+        &__block {
+            flex-basis: 33%;
+        }
+
+        &__theme {
+            max-width: 80%;
+            margin: 0px 0px 13px 0px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 122.4%;
+            letter-spacing: 0.04em;
+            color: #174479;
+        }
+
+        &__title {
+            margin: 0px 0px 78px 0px;
+            font-family: "Russo One";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 123.63%;
+            letter-spacing: 0.02em;
+            color: #174479;
+        }
+
+        &__first {
+            margin: 0px 24px 0px 0px;
+            font-family: "Russo One";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 80px;
+            line-height: 110.2%;
+            letter-spacing: 0.01em;
+            color: #174479;
+        }
+    }
+
+    &-content {
+        display: flex;
+        justify-content: space-between;
+
+        &__block {
+            flex-basis: 33%;
+
+        }
+
+        &__img {
+            margin: 0px 0px 32px 0px;
+            z-index: 1;
+
+            &:hover {
+                z-index: 5;
+                background: linear-gradient(180deg, rgba(0, 28, 67, 0.8) 0%, rgba(0, 15, 35, 0) 100%), url('../assets/northWay/play.png');
+            }
+
+        }
+
+        &__subtitle {
+            max-width: 85%;
+            margin: 0px 0px 13px 0px;
+            font-family: "Russo One";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 124.3%;
+            letter-spacing: 0.03em;
+            color: #333333;
+        }
+
+        &__description {
+            max-width: 85%;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.04em;
+            color: #555555;
+        }
+    }
+}
+
+.news {
+
+    &-container {
+        padding: 110px 0px 96px 0px;
+    }
+
+    &-top {
+        margin: 0px 0px 50px 0px;
+        display: flex;
+        justify-content: space-between;
+
+        &__title {
+            @extend %section-title;
+        }
+
+        &__link {
+            @extend %section-button;
+        }
+    }
+
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &__item {
+            margin: 0px 0px 16px 0px;
+            flex-basis: 30%;
+            border: 1px solid #EBEBEB;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+
+        &__img {
+            margin: 0px 0px 19px 0px;
+        }
+
+        &__date {
+            margin: 0px 0px 10px 0px;
+            padding: 0px 24px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.04em;
+            color: #999999;
+        }
+
+        &__subtitle {
+            margin: 0px 0px 16px 0px;
+            padding: 0px 24px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 122.4%;
+
+            /* or 24px */
+            letter-spacing: 0.04em;
+            color: #333333;
+        }
+
+        &__desription {
+            margin-bottom: 7%;
+            padding: 0px 24px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+
+            /* or 133% */
+            letter-spacing: 0.04em;
+            color: #555555;
+        }
+
+        &__theme {
+            display: inline-block;
+            // vertical-align: ;
+            margin: 0px 0px 18px 0px;
+            padding: 0px 24px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 24px;
+
+            /* identical to box height, or 133% */
+            letter-spacing: 0.04em;
+            color: #174479;
+            opacity: 0.5;
+            text-decoration: none;
+            transition: opacity 0.7s ease;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    .content-item__link {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+
+
+/* slider */
+
+// .swiper-button-next,
+// .swiper-button-prev {
+//     position: absolute;
+//     top: 463px;
+//     border: 2px solid #456994;
+//     border-radius: 50%;
+//     width: 64px;
+//     height: 64px;
+//     /* width: calc(var(--swiper-navigation-size)/ 44 * 27); */
+//     /* height: var(--swiper-navigation-size); */
+//     /* margin-top: calc(-1 * var(--swiper-navigation-size)/ 2); */
+//     z-index: 10;
+//     cursor: pointer;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: #456994;
+// }
+

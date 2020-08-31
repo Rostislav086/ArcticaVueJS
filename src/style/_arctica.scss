@@ -1,0 +1,292 @@
+@import '../style/_templates.scss';
+@import '../style/swiper-bundle.min.css';
+
+.arctica {
+    &-container {
+        padding: 80px 0px 0px 0px;
+    }
+
+    &-nav {
+        margin: 0px 0px 110px 0px;
+        height: 144px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #ebebeb;
+        border-bottom: 1px solid #ebebeb;
+
+        &__link {
+            margin: 0px 0px 0px 16px;
+            text-decoration: none;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 24px;
+            /* or 133% */
+            letter-spacing: 0.04em;
+            /* font_main */
+            color: #555555;
+            transition: opacity 0.3s ease;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+.today {
+    &-title {
+        @extend %section-title;
+        margin: 0px 0px 98px 0px;
+    }
+
+    &-item {
+        margin: 0px 0px 112px 0px;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+
+        &__description {
+            flex-basis: 40%;
+            padding: 0px 125px 0px 0px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 122.4%;
+            /* or 24px */
+            letter-spacing: 0.04em;
+            /* accent */
+            color: #174479;
+        }
+
+        &__img {
+            flex-basis: 60%;
+            max-width: 740px;
+            width: 95%;
+        }
+    }
+
+    .today-item:nth-child(odd) .today-item__description {
+        order: 1;
+        margin: 0px 0px 0px 124px;
+    }
+}
+
+.region {
+    background: url('../assets/arctic/region/bg.png') no-repeat center;
+
+    &-container {
+        padding: 110px 0px 530px 0px;
+    }
+
+    &-title {
+        @extend %section-title;
+        margin: 0px 0px 71px 0px;
+    }
+
+    &-content {
+        display: flex;
+
+        &__description {
+            max-width: 50%;
+            width: 50%;
+        }
+
+        &__statistic {
+            max-width: 50%;
+            width: 50%;
+            text-align: center;
+        }
+    }
+
+    .description-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        /* or 133% */
+        letter-spacing: 0.04em;
+        /* font_main */
+        color: #555555;
+    }
+
+    .statistic-item {
+        margin: 0px 0px 45px 165px;
+        display: flex;
+        align-items: center;
+
+
+        &__subtitle {
+            font-family: "Russo One";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 124.3%;
+            /* or 32px */
+            letter-spacing: 0.03em;
+            /* accent */
+            color: #174479;
+        }
+
+        &__first {
+            margin: 0px 24px 11px 0px;
+            font-family: "Russo One";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 80px;
+            line-height: 110.2%;
+            /* or 88px */
+            letter-spacing: 0.01em;
+            /* accent */
+            color: #174479;
+        }
+
+        &__description {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 122.4%;
+            /* or 24px */
+            letter-spacing: 0.04em;
+            /* accent */
+            color: #174479;
+        }
+
+        &__img {
+            margin: 0px 24px 0px 0px;
+            width: 41px;
+            height: 56px;
+        }
+    }
+}
+
+.development {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .swiper-container {
+        text-align: center;
+        position: absolute;
+        top: 0;
+        width: 1920px;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .swiper-wrapper {
+        margin: 0 auto;
+        max-width: 1920px;
+        width: 100%;
+        // overflow: hidden;
+    }
+
+    .swiper-slide {
+        width: 100%;
+
+        &__one {
+            background: url('../assets/arctic/development/bg.png') no-repeat;
+            background-blend-mode: multiply, normal;
+        }
+
+        &__two {
+            background: url('../assets/arctic/development/bg2.png') no-repeat;
+            background-blend-mode: multiply, normal;
+        }
+
+        &__three {
+            background: url('../assets/arctic/development/bg3.png') no-repeat;
+            background-blend-mode: multiply, normal;
+        }
+    }
+
+    // .development-button-prev,
+    // .development-button-next {
+    //     position: absolute;
+    //     top: 50%;
+    //     z-index: 2;
+    //     width: 100px;
+    //     height: 100px;
+    // }
+
+    &-container {
+        padding: 110px 0px 371px 0px;
+    }
+
+    &-title {
+        margin: 0px 0px 177px 0px;
+        font-family: "Russo One";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 110.2%;
+        /* or 88px */
+        letter-spacing: 0.01em;
+        /* white */
+        color: #FFFFFF;
+    }
+
+    &-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content-item {
+
+
+        &__img {
+            margin: 0px 0px 93px 0px;
+        }
+
+        &__description {
+            max-width: 522px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 24px;
+            /* or 133% */
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.politic {
+    &-container {
+        padding: 110px 0px 0px 0px;
+    }
+
+    &-title {
+        @extend %section-title;
+        margin: 0px 0px 71px 0px;
+    }
+
+    &-list {
+        margin: 0px 0px 48px 0px;
+    }
+
+    &-item {
+        width: 63%;
+        margin: 0px 0px 32px 0px;
+        color: #174479;
+
+        &__link {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 122.4%;
+            /* or 24px */
+            letter-spacing: 0.04em;
+            /* accent */
+            color: #174479;
+            text-decoration: none;
+            transition: opacity 0.3s ease, color 0.3s ease;
+
+            &:hover {
+                opacity: 0.8;
+                color: #333333;
+            }
+        }
+    }
+}
