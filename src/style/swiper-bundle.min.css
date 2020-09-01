@@ -223,11 +223,15 @@
     content: 'prev'
 } */
 
-.swiper-button-next,
-.swiper-project-next,
-.swiper-container-rtl .swiper-button-prev {
-    /* right: 10px; */
+.swiper-project-next {
+    right: 10px;
     left: 84px;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    right: 10px;
+    left: auto;
 }
 
 /* .swiper-button-next:after,

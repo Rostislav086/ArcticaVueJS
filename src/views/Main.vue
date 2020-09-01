@@ -59,11 +59,11 @@
           <h1 class="project-title">Проекты</h1>
           <a href="#" class="project-link">Смотреть всё</a>
         </div>
-        <div class="project-swiper__container">
+        <swiper ref="mySwiper" :options="swiperOptions" class='swiper-container'>
           <!-- Additional required wrapper -->
-          <div class="swiper-wrapper project-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide project-slide">
+          <!-- <div class="swiper-wrapper project-wrapper">
+            Slides -->
+            <swiper-slide class="swiper-slide project-slide">
               <div class="project-block">
                 <div class="project-content">
                   <p class="project-content__theme">Инфраструктура</p>
@@ -77,17 +77,17 @@
                     Подробнее
                     <i i class="fas fa-chevron-right"></i>
                   </a>
-                  <div class="swiper-project-prev">
+                  <div class="swiper-project-prev" slot="button-prev">
                     <i class="fas fa-chevron-left button-prev__project"></i>
-                  </div>
-                  <div class="swiper-project-next">
+                    </div>
+                  <div class="swiper-project-next" slot="button-next">
                     <i class="fas fa-chevron-right button-next__project"></i>
-                  </div>
+                    </div>
                 </div>
                 <img class="project-content__img" src="../assets/project/1.png" alt="white beare" />
               </div>
-            </div>
-            <div class="swiper-slide project-slide">
+            </swiper-slide>
+            <swiper-slide class="swiper-slide project-slide">
               <div class="project-block">
                 <div class="project-content">
                   <p class="project-content__theme">Нефть</p>
@@ -100,17 +100,17 @@
                     Подробнее
                     <i i class="fas fa-chevron-right"></i>
                   </a>
-                  <div class="swiper-project-prev">
+                  <div class="swiper-project-prev" slot="button-prev">
                     <i class="fas fa-chevron-left button-prev__project"></i>
-                  </div>
-                  <div class="swiper-project-next">
+                    </div>
+                  <div class="swiper-project-next" slot="button-next">
                     <i class="fas fa-chevron-right button-next__project"></i>
-                  </div>
+                    </div>
                 </div>
                 <img class="project-content__img" src="../assets/project/2.png" alt="arctic sea" />
               </div>
-            </div>
-            <div class="swiper-slide project-slide">
+            </swiper-slide>
+            <swiper-slide class="swiper-slide project-slide">
               <div class="project-block">
                 <div class="project-content">
                   <p class="project-content__theme">Инфраструктура</p>
@@ -123,17 +123,17 @@
                     Подробнее
                     <i i class="fas fa-chevron-right"></i>
                   </a>
-                  <div class="swiper-project-prev">
+                  <div class="swiper-project-prev" slot="button-prev">
                     <i class="fas fa-chevron-left button-prev__project"></i>
-                  </div>
-                  <div class="swiper-project-next">
+                    </div>
+                  <div class="swiper-project-next" slot="button-next">
                     <i class="fas fa-chevron-right button-next__project"></i>
-                  </div>
+                    </div>
                 </div>
                 <img class="project-content__img" src="../assets/project/3.png" alt="arctic sea" />
               </div>
-            </div>
-            <div class="swiper-slide project-slide">
+            </swiper-slide>
+            <swiper-slide class="swiper-slide project-slide">
               <div class="project-block">
                 <div class="project-content">
                   <p class="project-content__theme">Инфраструктура</p>
@@ -147,17 +147,17 @@
                     Подробнее
                     <i i class="fas fa-chevron-right"></i>
                   </a>
-                  <div class="swiper-project-prev">
+                  <div class="swiper-project-prev" slot="button-prev">
                     <i class="fas fa-chevron-left button-prev__project"></i>
                   </div>
-                  <div class="swiper-project-next">
+                  <div class="swiper-project-next" slot="button-next">
                     <i class="fas fa-chevron-right button-next__project"></i>
-                  </div>
+                    </div>
                 </div>
                 <img class="project-content__img" src="../assets/project/4.png" alt="arctic sea" />
               </div>
-            </div>
-            <div class="swiper-slide project-slide">
+            </swiper-slide>
+            <swiper-slide class="swiper-slide project-slide">
               <div class="project-block">
                 <div class="project-content">
                   <p class="project-content__theme">Инфраструктура</p>
@@ -171,18 +171,18 @@
                     Подробнее
                     <i i class="fas fa-chevron-right"></i>
                   </a>
-                  <div class="swiper-project-prev">
+                  <div class="swiper-project-prev" slot="button-prev">
                     <i class="fas fa-chevron-left button-prev__project"></i>
-                  </div>
-                  <div class="swiper-project-next">
+                    </div>
+                  <div class="swiper-project-next" slot="button-next">
                     <i class="fas fa-chevron-right button-next__project"></i>
-                  </div>
+                    </div>
                 </div>
                 <img class="project-content__img" src="../assets/project/5.png" alt="arctic sea" />
               </div>
-            </div>
-          </div>
-        </div>
+            </swiper-slide>
+          <!-- </div> -->
+        </swiper>
       </div>
     </section>
 
@@ -249,11 +249,27 @@
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
 import News from '../components/News.vue';
 
 export default {
   components: {
     News,
+    Swiper,
+    SwiperSlide,
+  },
+  data() {
+    return {
+      swiperOptions: {
+        speed: 1900,
+        loop: true,
+        navigation: {
+          nextEl: '.swiper-button-prev',
+          prevEl: '.swiper-button-prev',
+          clickable: true,
+        },
+      },
+    };
   },
 };
 </script>
@@ -269,5 +285,8 @@ body {
   margin: 0 auto;
   max-width: 1280px;
   width: 95%;
+}
+.project-container{
+  margin-bottom: 128px;
 }
 </style>

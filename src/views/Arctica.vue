@@ -1,5 +1,5 @@
 <template>
-  <section class="acrtica">
+  <div class="acrtica">
     <section class="container arctica-container">
       <nav class="arctica-nav">
         <i i class="fas fa-chevron-right">
@@ -77,7 +77,7 @@
         <swiper-slide class="swiper-slide__two"></swiper-slide>
         <swiper-slide class="swiper-slide__three"></swiper-slide>
         <div class="swiper-button-prev" slot="button-prev"></div>
-        <div class="" slot="button-next"></div>
+        <div class="swiper-button-next" slot="button-next"></div>
       </swiper>
       <div class="container development-container">
         <h1 class="development-title">Развитие</h1>
@@ -147,7 +147,7 @@
           <h1 class="project-title">Проекты</h1>
           <a href="#" class="project-link">Смотреть всё</a>
         </div>
-        <swiper ref="mySwiper" :options="swiperOptions">
+        <swiper ref="mySwiper" :options="swiperOptions" class='swiper-container'>
           <!-- Additional required wrapper -->
           <!-- <div class="swiper-wrapper project-wrapper">
             Slides -->
@@ -273,17 +273,21 @@
         </swiper>
       </div>
     </section>
-  </section>
+
+    <News></News>
+  </div>
 </template>
 
 <script>
 import axios from 'axios';
 import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper';
+import News from '../components/News.vue';
 
 export default {
   components: {
     Swiper,
     SwiperSlide,
+    News,
   },
   directives: {
     swiper: directive,
@@ -291,14 +295,16 @@ export default {
   data() {
     return {
       news: [],
-      dbJsonURL: 'http://localhost:3000/news',
+      dbJsonURL: 'http://localhost:3000/project',
       error: '',
       swiperOptions: {
+        speed: 2000,
+        autoplay: true,
         loop: true,
         initialSlide: 0,
         navigation: {
-          nextEl: '.swiper-project-next',
-          prevEl: '.swiper-project-prev',
+          nextEl: '.swiper-button-prev',
+          prevEl: '.swiper-button-prev',
           clickable: true,
         },
         // Some Swiper option/callback...
@@ -313,9 +319,14 @@ export default {
         .then((response) => {
           this.news = response.data;
         })
-        .cath((e) => {
+        .catch((e) => {
           this.error = e;
         });
+    },
+  },
+  computed: {
+    swiper() {
+      return this.$refs.mySwiper.$swiper;
     },
   },
   mounted() {

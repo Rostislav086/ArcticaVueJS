@@ -19,7 +19,9 @@
       <div class="header-nav">
         <nav class="navigation">
           <div class="navigation-menu">
+            <router-link to="/">
             <img class="navigation-logo" src="../assets/logo.png" alt="logo" />
+            </router-link>
             <router-link to="/arctica" class="navigation-link">Об арктике
             </router-link>
             <a href="#" class="navigation-link">Инвестору</a>
@@ -28,7 +30,7 @@
             <a href="#" class="navigation-link">Севморпуть</a>
             <a href="#" class="navigation-link">Туризм</a>
           </div>
-          <button class="navigation-button">Личный кабинет</button>
+          <button class="navigation-button" @click="showModal = true">Личный кабинет</button>
         </nav>
       </div>
       <div class="header-content">
@@ -37,16 +39,55 @@
         <span class="header-content__title">это мощь</span>
         <p class="header-content__subtitle">Север бережёт свои богатства под слоем льда и снега</p>
       </div>
+      <div class="header-modal" v-if="showModal" @close="showModal = false">
+        <div class="modal-container">
+          <h1 class="header-modal__title">
+            Авторизация
+          </h1>
+          <p class="header-modal__text">
+            Добрый день. <br>
+            Данное модельно окно предназначено в качестве демонстрации и подтверждения
+            работоспособности кнопки, а так же умения реализовать это с помощью JS или VueJs.
+          </p>
+          <form action="" class="form-authorization">
+            <label for="email" class="form-label__email">Email:</label>
+            <input type="email" class="form-authorization__input __email"
+            placeholder="Введите свой email" name="email">
+            <label for="password" class="form-label__password">Password:</label>
+            <input type="text"
+            class="form-authorization__input __password"
+            placeholder="Введите пароль" name="password">
+          </form>
+          <span class="modal-close" @click='showModal = false'><i class="fas fa-times"></i></span>
+        </div>
+      </div>
     </div>
   </header>
 </template>
 
 <script>
+import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
+import Modal from './Modal.vue';
+// import swiper from '../scripts/swiper-bundle.min.js';
+
+export default {
+  data() {
+    return {
+      components: {
+        Swiper,
+        SwiperSlide,
+        Modal,
+      },
+      showModal: false,
+    };
+  },
+};
 </script>
 
 <style lang="scss">
 @import "../style/_header.scss";
 @import "../style/swiper-bundle.min.css";
+@import "../style/modelWindow.scss";
 
 body {
   font-family: "PT Sans";

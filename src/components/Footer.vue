@@ -8,9 +8,9 @@
             </div>
             <ul class="footer-nav__list">
               <li class="footer-nav__item">
-                <a href="#" class="footer-nav__link navigation-link">
+                <router-link to="/" class="footer-nav__link navigation-link">
                   Об Арктике
-                </a>
+                </router-link>
               </li>
               <li class="footer-nav__item">
                 <a href="#" class="footer-nav__link navigation-link"
@@ -42,7 +42,44 @@
             />
           </div>
         </div>
-        <div class="footer-contact"></div>
+        <div class="footer-contact">
+          <div class="footer-contact__adress">
+            <p class="contact-adress">
+              123376, Россия, г. Москва,
+              Большой Трёхгорный переулок, д. 15, с. 1
+            </p>
+          </div>
+          <div class="footer-contact__email">
+            <a href="#" class="contact-email__link">contact@arctic.gov.ru</a>
+            <a href="#" class="contact-phone__link">+7 (499) 322 44 27</a>
+          </div>
+          <div class="footer-contact__social">
+            <a href="" class="footer-social__link">
+              <i class="fab fa-facebook-f social-links"></i>
+              </a>
+            <a href="" class="footer-social__link">
+              <i class="fab fa-vk social-links"></i>
+            </a>
+            <a href="" class="footer-social__link">
+              <i class="fab fa-instagram social-links"></i>
+            </a>
+            <a href="" class="footer-social__link">
+              <i class="fab fa-twitter social-links"></i>
+            </a>
+            <a href="" class="footer-social__link">
+              <i class="fab fa-youtube social-links"></i>
+            </a>
+            <a href="" class="footer-social__link">
+              <i class="fab fa-telegram-plane social-links"></i>
+            </a>
+            <a href="" class="footer-social__link">
+              <i class="fab fa-odnoklassniki social-links"></i>
+            </a>
+            <a href="" class="footer-social__link">
+              <i class="fab fa-tiktok social-links"></i>
+            </a>
+            </div>
+        </div>
       </div>
     </footer>
 </template>
