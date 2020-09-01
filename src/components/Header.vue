@@ -1,19 +1,17 @@
 <template>
   <header class="header">
     <!-- =================================== -->
-    <div class="swiper-container header-slider">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
+    <swiper ref="mySwiper" :options="swiperOptions" class="swiper-container header-slider">
+        <swiper-slide class="swiper-slide">
           <img src="../assets/header/1.png" alt />
-        </div>
-        <div class="swiper-slide">
-          <img src="/img/header/2.png" alt />
-        </div>
-        <div class="swiper-slide">
-          <img src="/img/header/3.png" alt />
-        </div>
-      </div>
-    </div>
+        </swiper-slide>
+        <swiper-slide class="swiper-slide">
+          <img src="../assets/header/2.png" alt />
+        </swiper-slide>
+        <swiper-slide class="swiper-slide">
+          <img src="../assets/header/3.png" alt />
+        </swiper-slide>
+    </swiper>
     <!-- =================================== -->
     <div class="container header-container">
       <div class="header-nav">
@@ -67,18 +65,24 @@
 
 <script>
 import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
-import Modal from './Modal.vue';
 // import swiper from '../scripts/swiper-bundle.min.js';
 
 export default {
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
   data() {
     return {
-      components: {
-        Swiper,
-        SwiperSlide,
-        Modal,
-      },
       showModal: false,
+      swiperOptions: {
+        spaceBetween: 0,
+        speed: 3000,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+      },
     };
   },
 };

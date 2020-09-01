@@ -264,8 +264,8 @@ export default {
         speed: 1900,
         loop: true,
         navigation: {
-          nextEl: '.swiper-button-prev',
-          prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-project-next',
+          prevEl: '.swiper-project-prev',
           clickable: true,
         },
       },

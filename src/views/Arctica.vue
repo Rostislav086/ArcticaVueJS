@@ -70,14 +70,12 @@
     </section>
 
     <section class="development">
-      <swiper ref="mySwiper" :options="swiperOptions">
+      <swiper ref="mySwiper" :options="swiperDevelopmentOptions">
         <swiper-slide class="swiper-slide__one">
           <!-- <img src="../assets/arctic/development/bg.png" alt=""> -->
         </swiper-slide>
         <swiper-slide class="swiper-slide__two"></swiper-slide>
         <swiper-slide class="swiper-slide__three"></swiper-slide>
-        <div class="swiper-button-prev" slot="button-prev"></div>
-        <div class="swiper-button-next" slot="button-next"></div>
       </swiper>
       <div class="container development-container">
         <h1 class="development-title">Развитие</h1>
@@ -297,14 +295,21 @@ export default {
       news: [],
       dbJsonURL: 'http://localhost:3000/project',
       error: '',
+      swiperDevelopmentOptions: {
+        speed: 4500,
+        autoplay: {
+          delay: 3000,
+          stopOnLastSlide: false,
+        },
+        loop: true,
+      },
       swiperOptions: {
         speed: 2000,
-        autoplay: true,
         loop: true,
         initialSlide: 0,
         navigation: {
-          nextEl: '.swiper-button-prev',
-          prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-project-next',
+          prevEl: '.swiper-project-prev',
           clickable: true,
         },
         // Some Swiper option/callback...
